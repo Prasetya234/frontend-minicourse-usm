@@ -1,0 +1,371 @@
+.init-navbar {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.nav-container {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.nav-col-left img {
+  width: 100px;
+  height: 80px;
+}
+
+.nav-content {
+  position: absolute;
+  right: 0;
+}
+
+.navbar-collapse a {
+  color: black;
+  font-size: 20px;
+  margin: 0 10px;
+  font-weight: bold;
+}
+.infaq-button {
+  background-color: orange;
+  border-radius: 28px;
+  width: 220px;
+  text-align: center;
+}
+
+.container-content {
+  width: 75%;
+  margin: 30px auto;
+}
+.carousel-item {
+  height: 500px !important;
+}
+.second-title {
+  width: 60%;
+  margin: 60px auto;
+  text-align: center;
+}
+.second-title p {
+  font-size: 18px;
+}
+
+.program-category {
+  margin: 40px 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.box img {
+  border-radius: 50%;
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+.box span {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+}
+.berita-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.berita-content img {
+  width: 100%;
+  height: 200px;
+}
+.berita-content .title {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  display: block;
+}
+.berita-content .other {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  color: gray;
+  justify-content: space-between;
+}
+.berita-content img {
+  transition: 1s;
+}
+.berita-content img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+footer {
+  background-color: #53b701;
+  color: aliceblue;
+  padding: 20px;
+}
+footer .container {
+  display: flex;
+  padding: 30px 0;
+}
+footer .title {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.footer-first {
+  display: flex;
+  max-width: 400px;
+}
+.footer-second {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+}
+.footer-second ul {
+  list-style-type: none;
+}
+.footer-second a {
+  text-decoration: none;
+  color: white;
+}
+.footer-second a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.footer-third {
+  max-width: 400px;
+  padding-left: 150px;
+}
+.footer-third svg {
+  width: 30px;
+  margin: 0 8px;
+}
+.copyright {
+  font-size: 14px;
+  display: block;
+  text-align: center;
+}
+/* layanan page */
+.layanan-option {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #17af60a7;
+  gap: 20px;
+}
+.layanan-option-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.layanan-option-box span {
+  margin: 20px 0;
+}
+
+.layanan-feature {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 40px;
+  font-weight: bold;
+}
+.layanan-feature a,
+.layanan-feature a:hover {
+  color: white;
+}
+.layanan-feature .content {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  margin-top: 35px;
+  height: 370px;
+}
+.layanan-feature .content:hover {
+  transform: scale(1.05);
+}
+.img-feature {
+  width: 100%;
+  height: 100%;
+  filter: brightness(70%);
+}
+.layanan-feature .title {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 30px;
+}
+.layanan-feature .detail {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 18px;
+}
+
+/* profile */
+.header-image { 
+  height: 350px;
+  background-image: url('/assets/profile-background.jpg');
+  background-size: cover;
+  filter: brightness(90%);
+  margin: 0 30px;
+  display: flex;
+  align-items: center;
+}
+.header-image .title {
+  color: green;
+  font-weight: 700;
+  font-size: 60px;   
+}
+.profile-list li {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 35px;
+}
+.profile-list ul li {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* infaq */
+.button-group {
+  margin: 40px 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.button-group button {
+  border: none;
+  padding: 10px 0;
+  width: 100%;
+  transition: 0.5s;
+}
+.button-group button:hover {
+  background-color: orange;
+}
+.donation-group img {
+  width: 100%;
+  height: 250px;
+}
+.donation-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.card-title {
+  display: block;
+  line-height: 18px;
+  font-size: 16px;
+}
+.garis {
+  background-color: orangered;
+  height: 2px;
+  border: none;
+}
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  font-size: 13px;
+}
+.card-category {
+  font-size: 13px;
+}
+.card-body-box {
+  display: flex;
+  flex-direction: column;
+}
+.bold {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* nomor rekening */
+.no-rek {
+  font-size: 18px;
+}
+.list-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+  font-weight: bold;
+}
+.list-content-description {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.background-other {
+  background: url('/assets/other.jpg');
+}
+.answered {
+  padding: 10px;
+  font-size: 16px;
+  background: #eee !important;
+}
+
+@media only screen and (max-width: 990px) {
+  .nav-content {
+    position: relative;
+    left: 0;
+  }
+  .nav-container {
+    width: 90%;
+  }
+  .container-content {
+    width: 90%;
+    margin: 30px auto;
+  }
+  .carousel-item {
+    height: 300px !important;
+  }
+  .second-title {
+    width: 100%;
+  }
+  .header-image {
+    margin: 0;
+  }
+  .program-category,
+  .berita-content,
+  .layanan-option, 
+  .donation-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer .container {
+    display: block;
+  }
+  .footer-first,
+  .footer-second,
+  .footer-third {
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  .layanan-feature {
+    grid-template-columns: none;
+  }
+  
+.pembungkus-isi span, p, .isi{
+  font-size: 15px;
+}
+.container-content .judul {
+  font-size: 17px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .program-category,
+  .berita-content,
+  .layanan-option, 
+  .donation-group {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .button-group {
+    font-size: 14px;
+  }
+  .header-image .title {
+    font-size: 35px;
+  }
+}
